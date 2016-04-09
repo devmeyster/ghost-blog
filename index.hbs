@@ -1,0 +1,51 @@
+{{!< default}}
+{{! The main content area on the homepage }}
+<section id="intro" {{#if @blog.cover}} class="covered" style="background-image: url({{@blog.cover}})"{{/if}}>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				{{>widget-about-me}}
+			</div>
+		</div>
+	</div>
+</section>
+<main class="body-content" role="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+			{{#foreach posts}}
+		    <div class="{{post_class}}" {{#if @first}} id="author-info" {{#if author}} {{#if author.image}}data-author-image="{{author.image}}"{{/if}} data-author-name="{{author.name}}" data-author-bio="{{author.bio}}" data-author-cover="{{author.cover}}" {{/if}} {{/if}}>
+		    	{{!--<div class="post-media">
+		    		{{content words="0"}}
+		    	</div>--}}
+		    	<div class="post-desc">
+		    		<h3 class="post-title"><a href="{{url}}">{{{title}}}</a></h3>
+		    		<div class="post-content">
+                        {{content words="200"}} ... <a class="read-more" href="{{url}}">Read more »</a>
+                    </div>
+                    <div class="post-meta clearfix">
+					    <span class="time pull-left">
+					        <i class="fa fa-calendar"></i> {{date published_at timeago="true"}}
+					    </span>
+					    {{#if tags}}
+					    <span>
+                            <i class="fa fa-tags"></i> {{tags separator=", "}}
+                        </span>
+                        {{/if}}
+					    <span class="comment pull-right">
+					        {{!>facebook-comment-count}}
+					        {{!>googleplus-comment-count}}
+					        {{>disqus-comment-count}}
+					    </span>
+					</div>
+		    	</div>
+		    </div>
+			{{/foreach}}
+			{{pagination}}
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+			{{>sidebar}}
+			</div>
+		</div>
+    </div>
+</main>

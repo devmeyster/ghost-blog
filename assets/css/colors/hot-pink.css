@@ -1,0 +1,145 @@
+::selection {
+	background: #ff69b4;
+}
+a:hover, a:focus{
+	color: #ff69b4;
+}
+.btn-theme .caret{
+	border-top-color: #ff69b4;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+	border-top-color: #ff69b4;
+	background:#ff69b4;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: #ff69b4;
+	color: #ff69b4;
+}
+blockquote {
+	border-left-color:#ff69b4;
+}
+.navbar-custom {
+	border-top-color: #ff69b4;
+}
+.navbar-custom .navbar-header .navbar-brand.logo-text{
+	color: #ff69b4;
+}
+.main-nav>li>a{
+	color: #ff69b4;
+}
+.main-nav>li.active>a,
+.main-nav>li>a:hover{
+	border-bottom-color: #ff69b4;
+}
+#intro {
+	background-color: #ff69b4;
+}
+#intro.covered:before{
+	background-color: #ff69b4;
+}
+.page-info-section{
+	background-color: #ff69b4;
+}
+.post.featured .ribbon{
+	background-color: #ff69b4;
+	border-top: 1px solid #ff69b4;
+	border-bottom: 1px solid #ff69b4;
+}
+.post.featured .ribbon:before,
+.post.featured .ribbon:after{
+	background-color: #ff69b4;
+	border-color: #ff69b4;
+}
+.post .post-media .mask,
+.post-content .post-photo .mask{
+	background-color: #ff69b4;
+	background-color: rgba(255,105,180,0.8);
+}
+.post .post-desc .post-title:before{
+	border-left-color: #ff69b4;
+}
+.post-wrap .post .post-title:before{
+	border-left-color:  #ff69b4;
+}
+.widget .widget-title:before{
+	border-left-color:  #ff69b4;
+}
+.widget.about-me .widget-content .flip-container .flip .back {
+  	background: #ff69b4;
+}
+.feedList li:hover .itemDate{
+	border-color: #ff69b4;
+}
+.feedList li:hover .itemDate span,
+.feedList li:hover .itemContent .title a,
+.feedList li:hover .itemContent .desc,
+.feedList li:hover .itemContent .desc a{
+	color: #ff69b4;
+}
+.flickr-feed li a:hover img{
+	border-color:#ff69b4;
+}
+.instagram-feed li a:hover img{
+	border-color:#ff69b4;
+}
+.dribbble-feed li a:hover img{
+	border-color:#ff69b4;
+}
+.outdated-frame{
+    background: #ff69b4;
+}
+#infscr-loading{
+	background: #ff69b4;
+}
+.site-footer{
+	border-top-color: #ff69b4;
+}
+.site-footer .gotop .totop-btn{
+	border-color: #ff69b4;
+}
+.site-footer .gotop .totop-btn i{
+	color: #ff69b4;
+}
+.site-footer .gotop .totop-btn:hover{
+	background: #ff69b4;
+}
+.main-nav.in:before{
+	border-bottom-color: #ff69b4;
+}
+.main-nav.in>li {
+	background-color: #ff69b4;
+}
+.main-nav.in>li>a{
+	color: #fff;
+}
+.main-nav.in>li.active>a,
+.main-nav.in>li>a:hover{
+	border-bottom-color: #fff;
+	color: #fff;
+}
+.navbar-toggle{
+	border-color:  #ff69b4;
+}
+.navbar-toggle span,
+.navbar-toggle i{
+	color: #ff69b4;
+}

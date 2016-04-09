@@ -1,0 +1,104 @@
+::selection {
+	background: #5676a5;
+}
+a:hover, a:focus{
+	color: #5676a5;
+}
+.btn-theme .caret{
+	border-top-color: #5676a5;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+	border-top-color: #5676a5;
+	background:#5676a5;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: #5676a5;
+	color: #5676a5;
+}
+blockquote {
+	border-left-color:#5676a5;
+}
+header{
+	border-top-color: #5676a5;
+}
+header .logo-container .logo.text{
+	color: #5676a5;
+}
+#intro {
+	background-color: #5676a5;
+}
+#intro.covered:before{
+	background-color: #5676a5;
+}
+.page-info-section{
+	background-color: #5676a5;
+}
+.post .post-media .mask,
+.post-content .post-photo .mask{
+	background-color: #5676a5;
+	background-color: rgba(86,118,165,0.8);
+}
+.post .post-desc .post-title:before{
+	border-left-color: #5676a5;
+}
+.post-wrap .post .post-title:before{
+	border-left-color:  #5676a5;
+}
+.widget .widget-title:before{
+	border-left-color:  #5676a5;
+}
+.widget.about-me .widget-content .flip-container .flip .back {
+  	background: #5676a5;
+}
+.feedList li:hover .itemDate{
+	border-color: #5676a5;
+}
+.feedList li:hover .itemDate span,
+.feedList li:hover .itemContent .title a,
+.feedList li:hover .itemContent .desc,
+.feedList li:hover .itemContent .desc a{
+	color: #5676a5;
+}
+.flickr-feed li a:hover img{
+	border-color:#5676a5;
+}
+.instagram-feed li a:hover img{
+	border-color:#5676a5;
+}
+.dribbble-feed li a:hover img{
+	border-color:#5676a5;
+}
+.outdated-frame{
+    background: #5676a5;
+}
+.site-footer{
+	border-top-color: #5676a5;
+}
+.site-footer .gotop .totop-btn{
+	border-color: #5676a5;
+}
+.site-footer .gotop .totop-btn i{
+	color: #5676a5;
+}
+.site-footer .gotop .totop-btn:hover{
+	background: #5676a5;
+}

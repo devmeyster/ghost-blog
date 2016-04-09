@@ -1,0 +1,37 @@
+<nav class="navbar navbar-custom" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            {{! Begin Logo }}
+                            {{#if @blog.logo}}
+            <a class="navbar-brand logo-img" href="{{@blog.url}}">
+                <img src="{{@blog.logo}}" alt="{{@blog.title}}" title="{{@blog.title}}"/>
+            </a>
+            {{else}}
+            <a class="navbar-brand logo-text" href="{{@blog.url}}">{{@blog.title}}</a>
+            {{/if}}
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav">
+                <span>Menu</span> <i class="fa fa-tasks"></i>
+            </button>
+        </div>
+        {{! Begin Social }}
+        <div class="social-top">
+            <ul class="social top">
+                <li class="twitter">
+                    <a href="https://twitter.com/arturmeyster" target="_blank" title="Twitter"> <i class="fa fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="linkedin">
+                    <a href="https://www.linkedin.com/in/meyster" target="_blank" title="Linkedin" target="_blank" title="Linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="rss feed">
+                    <a href="https://github.com/devmeyster" target="_blank" title="Github"> <i class="fa fa-github"></i>
+                    </a>
+                </li>    
+            </ul>
+        </div>
+        {{! End Social }}
+        {{>nav}}
+    </div>
+</nav>

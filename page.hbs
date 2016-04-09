@@ -1,0 +1,53 @@
+{{!< default}}
+{{#post}}
+<section class="page-info-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <ol class="breadcrumb">
+                    <li><a href="/"><i class="fa fa-sitemap"></i>  Home</a></li>
+                    <li class="active">{{{title}}}</li>
+                </ol>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="share">
+                    <!-- AddThis Button BEGIN -->
+                    <div class="addthis_toolbox addthis_default_style ">
+                        <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+                        <a class="addthis_button_tweet"></a>
+                        <a class="addthis_counter addthis_pill_style"></a>
+                    </div>
+                    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ee1eac8130b88cf"></script>
+                    <!-- AddThis Button END -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<main class="body-content page-detail" role="main">
+	<div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            	<div class="post-wrap">
+            		<article class="{{post_class}}" id="author-info" {{#if author}} {{#if author.image}}data-author-image="{{author.image}}"{{/if}} data-author-name="{{author.name}}" data-author-bio="{{author.bio}}"{{/if}}>
+                        {{! Everything below outputs content of the the post which has been published }}
+                        <h2 class="post-title">
+                            <a href="{{url}}">{{{title}}}</a>
+                        </h2>
+            			<section class="post-content">
+                            {{content}}
+                        </section>
+                    </article>
+            	</div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="widget-wrap">
+                    {{>widget-about-me}}
+                    {{> sidebar}}
+                </div>
+            </div>
+       	</div>
+    </div>
+</main>
+{{/post}}

@@ -1,0 +1,145 @@
+::selection {
+	background: #daa520;
+}
+a:hover, a:focus{
+	color: #daa520;
+}
+.btn-theme .caret{
+	border-top-color: #daa520;
+}
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+	border-top-color: #daa520;
+	background:#daa520;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: #daa520;
+	color: #daa520;
+}
+blockquote {
+	border-left-color:#daa520;
+}
+.navbar-custom {
+	border-top-color: #daa520;
+}
+.navbar-custom .navbar-header .navbar-brand.logo-text{
+	color: #daa520;
+}
+.main-nav>li>a{
+	color: #daa520;
+}
+.main-nav>li.active>a,
+.main-nav>li>a:hover{
+	border-bottom-color: #daa520;
+}
+#intro {
+	background-color: #daa520;
+}
+#intro.covered:before{
+	background-color: #daa520;
+}
+.page-info-section{
+	background-color: #daa520;
+}
+.post.featured .ribbon{
+	background-color: #daa520;
+	border-top: 1px solid #daa520;
+	border-bottom: 1px solid #daa520;
+}
+.post.featured .ribbon:before,
+.post.featured .ribbon:after{
+	background-color: #daa520;
+	border-color: #daa520;
+}
+.post .post-media .mask,
+.post-content .post-photo .mask{
+	background-color: #daa520;
+	background-color: rgba(218,165,32,0.8);
+}
+.post .post-desc .post-title:before{
+	border-left-color: #daa520;
+}
+.post-wrap .post .post-title:before{
+	border-left-color:  #daa520;
+}
+.widget .widget-title:before{
+	border-left-color:  #daa520;
+}
+.widget.about-me .widget-content .flip-container .flip .back {
+  	background: #daa520;
+}
+.feedList li:hover .itemDate{
+	border-color: #daa520;
+}
+.feedList li:hover .itemDate span,
+.feedList li:hover .itemContent .title a,
+.feedList li:hover .itemContent .desc,
+.feedList li:hover .itemContent .desc a{
+	color: #daa520;
+}
+.flickr-feed li a:hover img{
+	border-color:#daa520;
+}
+.instagram-feed li a:hover img{
+	border-color:#daa520;
+}
+.dribbble-feed li a:hover img{
+	border-color:#daa520;
+}
+.outdated-frame{
+    background: #daa520;
+}
+#infscr-loading{
+	background: #daa520;
+}
+.site-footer{
+	border-top-color: #daa520;
+}
+.site-footer .gotop .totop-btn{
+	border-color: #daa520;
+}
+.site-footer .gotop .totop-btn i{
+	color: #daa520;
+}
+.site-footer .gotop .totop-btn:hover{
+	background: #daa520;
+}
+.main-nav.in:before{
+	border-bottom-color: #daa520;
+}
+.main-nav.in>li {
+	background-color: #daa520;
+}
+.main-nav.in>li>a{
+	color: #fff;
+}
+.main-nav.in>li.active>a,
+.main-nav.in>li>a:hover{
+	border-bottom-color: #fff;
+	color: #fff;
+}
+.navbar-toggle{
+	border-color:  #daa520;
+}
+.navbar-toggle span,
+.navbar-toggle i{
+	color: #daa520;
+}
